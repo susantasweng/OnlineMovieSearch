@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">OnlineMovieSearch</string>
+    <string name="app_name">MovieSearch</string>
     <string name="search_button">Search</string>
     <string name="search_hint">Search by movie title</string>
     <string name="search_type">movie</string>

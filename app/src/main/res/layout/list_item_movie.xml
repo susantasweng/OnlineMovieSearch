@@ -1,6 +1,5 @@
-<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginLeft="@dimen/card_margin"
@@ -18,7 +17,6 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <!--suppress AndroidLintContentDescription -->
         <ImageView
             android:id="@+id/thumbnail"
             android:transitionName="poster"
@@ -36,7 +34,6 @@
             android:paddingTop="@dimen/card_padding_large"
             android:paddingRight="@dimen/card_padding_large"
             android:paddingBottom="@dimen/card_padding_medium"
-            tools:text="Batman: The Dark Knight Returns, Part 2"
             android:ellipsize="end"
             android:maxLines="4" />
 
@@ -48,7 +45,6 @@
             android:paddingLeft="@dimen/card_padding_large"
             android:paddingRight="@dimen/card_padding_large"
             android:paddingBottom="4dp"
-            tools:text="santhosh"
             android:maxLines="1"
             android:ellipsize="end" />
 
@@ -60,9 +56,8 @@
             android:paddingLeft="@dimen/card_padding_large"
             android:paddingRight="@dimen/card_padding_large"
             android:paddingBottom="@dimen/card_padding_large"
-            tools:text="2013"
             android:maxLines="1"
             android:ellipsize="end" />
     </LinearLayout>
 
-</android.support.v7.widget.CardView>
+</androidx.cardview.widget.CardView>
