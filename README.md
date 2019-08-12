@@ -1,7 +1,7 @@
 Android **OnlineMovieSearch** Application to search online OMDB movies.
 
 **App icon**
-<img src="images/app_icon.png">
+<img src="images/app_icon.jpg">
 
 **App Screenshot**
 
