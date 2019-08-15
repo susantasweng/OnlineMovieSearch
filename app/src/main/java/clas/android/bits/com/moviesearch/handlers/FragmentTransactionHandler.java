@@ -18,13 +18,11 @@ public class FragmentTransactionHandler {
 
     private BaseActivity baseActivity;
     private FragmentManager fragmentManager;
-    private FragmentTransaction fragmentTransaction;
     private static final String ADD_TRANSACTION = ":add";
 
     public FragmentTransactionHandler(BaseActivity baseActivity) {
         this.baseActivity = baseActivity;
         fragmentManager = baseActivity.getSupportFragmentManager();
-        fragmentTransaction = fragmentManager.beginTransaction();
     }
 
     public <V> void switchFragment(Class<? extends ContentFragment<?>> toClazz, V v, Bundle settings) {
